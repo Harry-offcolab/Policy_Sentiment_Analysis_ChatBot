@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Sentiment Analysis Models</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333366; }
+        h2 { color: #444; }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center><h1>🔍 About Sentiment Analysis Models</h1></center>
+
+    <p>
+<h2>1️⃣ VADER (Valence Aware Dictionary for Sentiment Reasoning)</h2>
+Type: Rule-based, Lexicon-based<br>
+Speed: Very Fast ⚡<br>
+<br>
+Strengths:<br>
+✅ Excellent for social media, short texts, and casual language<br>
+✅ Handles emojis, slang, capital letters, and punctuation emphasis<br>
+✅ Lightweight, no GPU needed<br>
+<br>
+Weaknesses:<br>
+❌ Cannot deeply understand complex sentence structures<br>
+❌ Not suitable for long texts or detecting sarcasm well<br>
+<br>
+When to use VADER?<br>
+
+-- Quick results<br>
+-- Small datasets<br>
+-- Short sentences (Tweets, comments, reviews)<br>
+-- No GPU or high resources available<br>
+    </p>
+
+
+    <h2>2️⃣ RoBERTa (Robustly Optimized BERT Pretraining Approach)</h2>
+    <p>
+Type: Transformer-based, Deep Learning Model<br>
+Speed: Slower compared to VADER 🐢 (requires GPU for faster processing)<br>
+<br>
+Strengths:<br>
+✅ Context-aware: Understands complex sentence structures<br>
+✅ Trained on large datasets<br>
+✅ Better at detecting hidden sentiment in professional or long texts<br>
+<br>
+Weaknesses:<br>
+❌ Slower, needs more computing resources<br>
+❌ Requires GPU for best performance<br>
+❌ Overkill for short, simple texts<br>
+<br>
+When to use RoBERTa?
+<br>
+-- Research-grade analysis<br>
+-- Complex, long-form articles, reports, professional documents<br>
+-- When accuracy and nuance are more important than speed<br>
+    </p>
+</body>
+</html>
